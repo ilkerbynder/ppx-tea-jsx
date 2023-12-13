@@ -35,6 +35,3 @@ type msg =
   | Decrement
   | Reset
   | Set of int
-let view model =
-  ((User.createElement ~name:(("Ozan")[@reason.raw_literal "Ozan"])
-      ?age:((Some (27))[@explicit_arity ]) ~children:[] ())[@JSX ])
